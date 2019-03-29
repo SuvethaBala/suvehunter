@@ -17,7 +17,7 @@ for(i=sum-1;i>=0;i--,temp++)
 	if(temp!=num)
 	{
 	printf("%d",s[i]);
-}
+        }
 }
 return 0;
 }
