@@ -25,6 +25,6 @@ int main()
 	    }
 	   printf("%d\n",min);
 	}
- 
+
 	    return 0;
 }
