@@ -4,5 +4,5 @@ sum=0
 for i in range(1,len(steps)):
 	     for j in range(0,i):  
 		           if(steps[j]<steps[i]):
-			                 sum+=steps[j]
+			                 sum=sum+steps[j]
 print(sum)
