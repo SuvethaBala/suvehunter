@@ -13,16 +13,16 @@ public class Main {
 	    sum=a+b;
 	    if(n%sum==0)
 	    {
-	        System.out.print("yes");
+	        System.out.print("YES");
 	    }
 	    else
 	    {
-	        System.out.print("no");  
+	        System.out.print("NO");  
 	    }
 	}
 	else
 	{
-	    System.out.print("no");    
+	    System.out.print("NO");    
 	}
 	}
 }
