@@ -1,11 +1,29 @@
 n=int(input())
-k=input().split()
-s=0
-l=[]
-for i in range(0,len(k)-1):
-	if int(k[i+1])>=int(k[i]):
-		s=s+1
-	else:
-		l.append(s)
-		s=0
-print(max(l)+1)
+nos=list(map(eval,input().split()))
+j=0
+cont=1
+m=0
+i=0
+while i<n:
+  c=1
+  small=nos[i]
+  j=i+1
+  while j<n and len(nos[i:])>m:
+    if small<nos[j]:
+      small=nos[j]
+      c+=1
+    j+=1
+  if c>m:
+    m=c
+  i+=1
+print(m)
+
+
+
+
+	
+		
+	
+		
+		
+
