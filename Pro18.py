@@ -26,4 +26,4 @@ for i in range(n):
     col=c
 for i in range(col):
   out=[1]*col
-  print(*out)  
+  print(*out)
