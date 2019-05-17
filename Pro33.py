@@ -1,12 +1,12 @@
-s=input()
+a=input()
 flag=0
-for i in range(0,len(s)-1):
-  for j in range(i+1,len(s)):
-    if s[i]<s[j]:
+for i in range(0,len(a)-1):
+  for j in range(i+1,len(a)):
+    if a[i]<a[j]:
       flag=1
-      print(s[j:])
+      print(a[j:])
       break
   if flag==1:
     break
 else:
-  print(s)
+  print(a)
