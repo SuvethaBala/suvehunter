@@ -1,8 +1,8 @@
-s=input()
+v=input()
 l=""
 c=0
 g=[]
-for i in s:
+for i in v:
 	if i not in l:
 		l=l+i
 		c=c+1
