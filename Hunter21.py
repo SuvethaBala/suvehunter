@@ -12,6 +12,6 @@ for i in range(0,len(x),2):
     for h in range(m):
         a[x[i]][h]=0
     for h in range(n1):
-        a[h][b[i+1]]=0
+        a[h][x[i+1]]=0
 for i in range(n1):
     print(*a[i])
