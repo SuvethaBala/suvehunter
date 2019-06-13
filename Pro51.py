@@ -13,8 +13,8 @@ for i in range(0,len(l)):
 		l[i]=1
 	else:
 		l[i]=0
-s=""		
+v=""		
 for i in range(0,len(l)):
 	k=l[i::]
-	s=s+str(check(k))+" "
-print(s.strip())
+	=v+str(check(k))+" "
+print(v.strip())
