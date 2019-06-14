@@ -19,8 +19,8 @@ else:
                 u=u+3
         else:
             s=s+'1'#loopends
-x=len(s)-1
-if(int(s[x])==0):
+y=len(s)-1
+if(int(s[y])==0):
     print('-1')
 elif a==1 and b==2: print("011")
 else:
