@@ -1,13 +1,13 @@
-n=input()
-if n==n[::-1]:
+m=input()
+if m==m[::-1]:
     print("yes")
 else:
-    value=n.strip("0")
+    value=m.strip("0")
     
     if value==value[::-1]:
         print("yes")
     else:
-        value=n.lstrip("0")
+        value=m.lstrip("0")
         
         if value==value[::-1]:
             print("yes")
