@@ -1,8 +1,8 @@
 n,p,q,r=map(int,input().split())
-l=list(map(int,input().split()))
+m=list(map(int,input().split()))
 c=[]
-for i in range(0,len(l)):#loopstarts
-	for j in range(i,len(l)):
-		for k in range(j,len(l)):
-			c.append(p*l[i]+q*l[j]+r*l[k])#loopends
+for i in range(0,len(m)):#loopstarts
+	for j in range(i,len(m)):
+		for k in range(j,len(m)):
+			c.append(p*m[i]+q*m[j]+r*m[k])#loopends
 print(max(c))
